@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B8E1D270-10BA-412B-ACC1-DE5BFAA2439B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openlane.CarSaleManager.Domain", "src\Openlane.CarSaleManager.Domain\Openlane.CarSaleManager.Domain.csproj", "{09BF84C1-FE97-4461-BD51-B77C2DDB0CD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openlane.CarSaleManager.Application", "src\Openlane.CarSaleManager.Application\Openlane.CarSaleManager.Application.csproj", "{450914D8-597D-4527-B0DD-9DA07DBAABA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openlane.CarSaleManager.Infrastructure", "src\Openlane.CarSaleManager.Infrastructure\Openlane.CarSaleManager.Infrastructure.csproj", "{9E2009A9-7B12-4728-A730-1D6A3FE959B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openlane.CarSaleManager.Service", "src\Openlane.CarSaleManager.Service\Openlane.CarSaleManager.Service.csproj", "{713395E7-0439-4885-924D-795886B71B32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09BF84C1-FE97-4461-BD51-B77C2DDB0CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BF84C1-FE97-4461-BD51-B77C2DDB0CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BF84C1-FE97-4461-BD51-B77C2DDB0CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BF84C1-FE97-4461-BD51-B77C2DDB0CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450914D8-597D-4527-B0DD-9DA07DBAABA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450914D8-597D-4527-B0DD-9DA07DBAABA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450914D8-597D-4527-B0DD-9DA07DBAABA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450914D8-597D-4527-B0DD-9DA07DBAABA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2009A9-7B12-4728-A730-1D6A3FE959B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2009A9-7B12-4728-A730-1D6A3FE959B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2009A9-7B12-4728-A730-1D6A3FE959B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2009A9-7B12-4728-A730-1D6A3FE959B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713395E7-0439-4885-924D-795886B71B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713395E7-0439-4885-924D-795886B71B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713395E7-0439-4885-924D-795886B71B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713395E7-0439-4885-924D-795886B71B32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09BF84C1-FE97-4461-BD51-B77C2DDB0CD2} = {B8E1D270-10BA-412B-ACC1-DE5BFAA2439B}
+		{450914D8-597D-4527-B0DD-9DA07DBAABA5} = {B8E1D270-10BA-412B-ACC1-DE5BFAA2439B}
+		{9E2009A9-7B12-4728-A730-1D6A3FE959B2} = {B8E1D270-10BA-412B-ACC1-DE5BFAA2439B}
+		{713395E7-0439-4885-924D-795886B71B32} = {B8E1D270-10BA-412B-ACC1-DE5BFAA2439B}
+	EndGlobalSection
+EndGlobal

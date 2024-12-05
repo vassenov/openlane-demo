@@ -1,0 +1,6 @@
+@Openlane.CarSaleManager.Service_HostAddress = http://localhost:5171
+
+GET {{Openlane.CarSaleManager.Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
